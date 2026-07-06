@@ -1,4 +1,4 @@
-# mna_sim — Linear Analog Circuit Simulator (C++ / MNA)
+# Linear Analog Circuit Simulator (C++ / MNA)
 
 A command-line EDA tool that parses SPICE-style netlists and computes the
 **AC frequency response** (Bode magnitude + phase) of linear analog circuits
