@@ -1,0 +1,8 @@
+* Series RLC low-pass (2-pole), output across the capacitor
+* f0 = 1/(2*pi*sqrt(L*C)) ~ 5.03 kHz
+V1 1 0 AC 1 0
+R1 1 2 100
+L1 2 3 10m
+C1 3 0 100n
+.ac dec 30 10 1meg
+.plot ac v(3)

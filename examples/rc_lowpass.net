@@ -1,0 +1,6 @@
+* RC low-pass filter, single pole, fc = 1/(2*pi*R*C) ~ 1 kHz
+V1 1 0 AC 1 0
+R1 1 2 1k
+C1 2 0 159.2n
+.ac dec 20 1 1meg
+.plot ac v(2)
